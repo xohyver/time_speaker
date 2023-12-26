@@ -1,6 +1,21 @@
 # time_speaker
 설정한 키워드를 음성으로 인식하면 현재 시간을 스피커로 출력하는 프로그램입니다./This program outputs the current time through the speaker when the set keyword is recognized by voice.
 
+# Installation
+```
+pip install pyttsx3
+pip install SpeechRecognition
+```
+
+# Dependency
+python 3.9.0
+speech_recognition
+pyttsx3
+os
+datetime
+sys
+
+
 # How_It_Works
 speech_recognition 라이브러리로 음성을 녹음해서 audio 변수로 저장한 뒤, Google Speech_to_Text API를 사용하여 audio를 텍스트로 변환한 후 키워드 포함 여부를 판독한다. 키워드가 포함될 시 datetime 라이브러리로 현재 시간을 불러들이고 pyttsx3 라이브러리로 현재시간을 스피커로 출력하는 원리이다./ Record the voice with the speech_recognition library and save it as an audio variable, then convert the audio to text using the Google Speech_to_Text API and read whether it contains keywords. The principle is that when a keyword is included, the current time is loaded into the datetime library and the current time is output to the speaker using the pyttsx3 library.
 
