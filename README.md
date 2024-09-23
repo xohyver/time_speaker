@@ -8,12 +8,7 @@ pip install SpeechRecognition
 ```
 
 # Dependency
-python 3.9.0
-speech_recognition
-pyttsx3
-os
-datetime
-sys
+python 3.9.0\nspeech_recognition\npyttsx3\nos\ndatetime\nsys
 
 
 # How it works
